@@ -1,0 +1,53 @@
+*{
+    color: whitesmoke;
+}
+body{
+    background: linear-gradient(60deg,rgb(0, 0, 0),rgb(8, 91, 105),rgb(0, 0, 0),rgb(8, 118, 138));
+    min-height: 100vh;
+}
+
+body h1{
+    color: whitesmoke;
+}
+.box img{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.display-box{
+    display: flex;
+    gap: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    width: 300px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.box:hover{
+    background-color: black;
+}
+
+.box h4{
+    flex-wrap: wrap;
+}
+.box-mostrar img{
+    width: 500px;
+    max-height: 60vh;
+    object-fit: cover;
+}
+.box-mostrar{
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 10px;
+}

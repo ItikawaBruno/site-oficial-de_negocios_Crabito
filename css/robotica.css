@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+    text-decoration: none;
+}
+
+
+.robotica{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.0rem;
+    background: linear-gradient(60deg,rgb(0, 0, 0),rgb(8, 91, 105),rgb(0, 0, 0),rgb(8, 118, 138));
+    color: whitesmoke;
+}
+.paragrafo{
+    width: 40%;
+}
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: rgb(8, 156, 182) ;
+}
+
+button{
+    background-color: black;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+.robotica img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 1.6rem;
+    box-shadow: 1px 1px 10px rgb(8, 156, 182);
+    animation: bord 5s infinite ease-out;
+}
+
+@keyframes bord{
+    100%{
+        box-shadow: 1px 1px 10px rgb(14, 8, 8);
+    }
+}

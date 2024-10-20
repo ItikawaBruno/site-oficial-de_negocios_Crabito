@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Login</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+    <form >
+
+        <div class="box-convite">
+            <h3>Seja Bem-vindo</h3>
+            <p>Para você saber novidades sobre robótica educacional e aprofundar ainda mais nesse assunto cadatre-se no nosso site.</p>
+        </div>
+        <div class="dados">
+        <div class="box">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Ex:Jorge da Silva Carvalho" required>
+        </div>
+        <div class="box">
+            <label for="user">UserName:</label>
+            <input type="text" name="user" id="user" placeholder="Ex:Jorge_Carvalho" required>
+        </div>
+        <div class="box">
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Ex:Jorge.carvalho@email.com" required>
+        </div>
+        <div class="box">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+        </div>
+        <button type="submit" id="btn">Cadastrar</button>
+    </div>
+    
+        
+    </form>
+
+
+    <div class="mostrar" id="mostrar">
+        
+    </div>
+
+
+
+
+    <table>
+        <div class="info">
+            <h1>Confirme suas informações.</h1>
+        </div>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Username</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+    
+    <tbody>
+        
+    </tbody>
+    </table>
+
+
+
+    <script src="./js/login.js"></script>
+</body>
+</html>

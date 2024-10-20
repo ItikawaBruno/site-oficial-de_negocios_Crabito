@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(75deg,rgba(27, 26, 26, 0.76),rgba(8, 8, 8, 0.836),rgba(12, 12, 12, 0.568)),
+    url(../image/img_robocup.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    color: whitesmoke;
+}
+header{
+    margin-top: 30px;
+    color: whitesmoke;
+    display: flex;
+    gap: 30px;
+}
+
+button{
+    border-radius: 10px;
+    border-color: #dc143d;
+}
+
+.roboCup{
+    background-color: whitesmoke;
+    color: #dc143d;
+}
+
+.next{
+    background-color: #dc143d;
+    color: whitesmoke;
+}
+
+span{
+    color: #dc143d;
+}
+
+
+section{
+    min-height: 100px;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}

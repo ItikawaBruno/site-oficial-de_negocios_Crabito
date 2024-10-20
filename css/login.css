@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: rgb(238, 233, 233);
+}
+body{
+    background: linear-gradient(60deg,rgb(0, 0, 0),rgb(8, 91, 105),rgb(0, 0, 0),rgb(8, 118, 138));
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+td,th{
+    padding: 5px;
+    background-color: rgba(24, 109, 105, 0.856);
+    color: white;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    background-color: rgba(24, 109, 105, 0.856);
+    color: white;
+}
+
+
+.info{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.info{
+    margin-top: 150px;
+}
+
+form{
+    background-color:rgba(24, 109, 105, 0.856) ;
+    width: 800px;
+    max-height: 400px;
+    display: flex;
+    gap:15px;
+    margin: auto;
+    border: 1px solid rgb(20, 197, 197);
+    border-radius: 5px;
+    margin-top: 200px;
+}
+
+
+.box-convite{
+    text-align: center;
+    background-color: rgb(20, 19, 19);
+    min-height: 250px;
+    max-width: 400px;
+    width: 500px;
+    border-radius: 5px 150px  150px 5px ;
+    padding: 30px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dados{
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+input{
+    width: 280px;
+    padding: 5px;
+    border-radius: 10px;
+    outline-color:rgb(20, 197, 197) ;
+    color: black;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px 0 5px 0;
+    padding: 2px;
+}
+
+button:hover{
+    border-color:rgb(20, 197, 197);
+    background-color: rgb(44, 42, 42);
+    color:rgb(20, 197, 197) ;
+}
+
+button:active{
+    background-color: rgb(20, 197, 197);
+    color:black;
+    border-color: rgb(20, 197, 197);
+}
+
+
+
+.mostrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+@media(max-width:786px){
+    form{
+        min-height: 250px;
+        max-width: 400px;
+        min-width: 300px;
+        font-size: 10px;
+        gap: none;
+    }
+
+    input{
+        width: 220px;
+        margin-right:200px;
+    }
+
+    .dados{
+        margin-top: 30px;
+        margin-right: 100px;
+        margin-left: 20px;
+        display: flex;
+        gap: 30px;
+    }
+
+    button{
+        margin-left: 30px;
+    }
+
+}

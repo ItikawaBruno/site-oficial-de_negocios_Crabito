@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font:62.5%;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    background: linear-gradient(60deg,rgb(0, 0, 0),rgb(8, 91, 105),rgb(0, 0, 0),rgb(8, 118, 138));
+    color: rgb(253, 253, 253);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+:root{
+    --color-blue:rgb(32, 55, 82);
+}
+
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px ;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+
+.resultado-pesquisa{
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 3rem;
+    width: 60rem; 
+    height: 43vh; 
+    padding: 3rem;
+}
+
+.resposta{
+    height: 600px;
+    max-width: 500px ;
+    background-color: var(--color-blue);
+    padding: 1rem; 
+    border: 1px solid var();
+    border-radius: 0.5rem;
+}
+
+input{
+    border-radius: 0.9rem;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 100%;
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem ;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+
+button{
+    width: 120px;
+    height: 30px;
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    border-radius: 0.9rem;
+    color: whitesmoke;
+}
+
+@media (max-width: 668px) {
+    h1 {
+        font-size: 2rem; 
+        letter-spacing: 0.2rem;
+        flex-wrap:wrap ;
+    }
+
+    section input {
+        width: 25rem; 
+        padding: 0.8rem;
+    }
+
+    .resultados-pesquisa {
+        width: 40rem;
+        height: 40vh;
+    }
+
+    .resposta h2 {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width:768px){
+    .container{
+        height: 980px;
+        width: 430px;
+
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        height: 100vh;
+        font-size: 0.7rem;
+    }
+
+    input{
+        width: 40px;
+        padding: 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
